@@ -7,25 +7,72 @@ Package proto is a generated protocol buffer package.
 
 It is generated from these files:
 	mysqlx.proto
+	mysqlx_connection.proto
+	mysqlx_crud.proto
+	mysqlx_datatypes.proto
+	mysqlx_expect.proto
+	mysqlx_expr.proto
+	mysqlx_notice.proto
+	mysqlx_resultset.proto
+	mysqlx_session.proto
+	mysqlx_sql.proto
 
 It has these top-level messages:
 	ClientMessages
 	ServerMessages
 	Ok
 	Error
+	Capability
+	Capabilities
+	CapabilitiesGet
+	CapabilitiesSet
+	Close
+	Column
+	Projection
+	Collection
+	Limit
+	Order
+	UpdateOperation
+	Find
+	Insert
+	Update
+	Delete
+	Scalar
+	Object
+	Array
+	Any
+	Open
+	Close
+	Expr
+	Identifier
+	DocumentPathItem
+	ColumnIdentifier
+	FunctionCall
+	Operator
+	Object
+	Array
+	Frame
+	Warning
+	SessionVariableChanged
+	SessionStateChanged
+	FetchDoneMoreOutParams
+	FetchDoneMoreResultsets
+	FetchDone
+	ColumnMetaData
+	Row
+	AuthenticateStart
+	AuthenticateContinue
+	AuthenticateOk
+	Reset
+	Close
+	StmtExecute
+	StmtExecuteOk
 */
 package proto
 
 import proto1 "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import _ "."
-import _ "."
-import _ "."
-import _ "."
-import _ "."
-import _ "."
-import _ "."
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto1.Marshal
